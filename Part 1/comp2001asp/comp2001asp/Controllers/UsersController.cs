@@ -9,7 +9,7 @@ using comp2001asp.Models;
 
 namespace comp2001asp.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("API/user")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -20,90 +20,79 @@ namespace comp2001asp.Controllers
             _context = context;
         }
 
-        // GET: api/Users
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
+        [NonAction]
+        public void Register(User user, out string NewUser)
         {
-            return await _context.Users.ToListAsync();
+            _context.Register(user, out NewUser);
         }
 
-        // GET: api/Users/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<User>> GetUser(int id)
+        [NonAction]
+        public bool getValidateUser(User user)
         {
-            var user = await _context.Users.FindAsync(id);
+            return _context.Validate(user);
+        }
 
-            if (user == null)
+
+
+        // GET: api/Users
+        [HttpGet]
+        public async Task<IActionResult> Get(User user)
+        {
+
+            bool v1 = getValidateUser(user);
+
+            if (v1)
             {
-                return NotFound();
+                return Ok(true);
             }
-
-            return user;
+            else
+            {
+                return StatusCode(208);
+            }
         }
 
         // PUT: api/Users/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUser(int id, User user)
+        public async Task<IActionResult> Update(int id, User user)
         {
-            if (id != user.UsersId)
-            {
-                return BadRequest();
-            }
+            _context.Update(user, id);
 
-            _context.Entry(user).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UserExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            return StatusCode(200);
         }
 
         // POST: api/Users
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<IActionResult> Post(User user)
         {
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+            string Response;
 
-            return CreatedAtAction("GetUser", new { id = user.UsersId }, user);
+            Register(user, out Response);
+
+            if (Response.Contains("200"))
+            {
+                return Ok(user);
+            }
+            else
+            {
+                return StatusCode(208);
+            }
         }
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<User>> DeleteUser(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var user = await _context.Users.FindAsync(id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-
-            _context.Users.Remove(user);
-            await _context.SaveChangesAsync();
-
-            return user;
+            _context.Delete(id);
+            return StatusCode(200);
         }
 
+
+        [NonAction]
         private bool UserExists(int id)
         {
-            return _context.Users.Any(e => e.UsersId == id);
+            return _context.Users.Any(e => e.Users_ID == id);
         }
     }
 }

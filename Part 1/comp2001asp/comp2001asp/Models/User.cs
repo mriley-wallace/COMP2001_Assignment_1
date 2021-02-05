@@ -7,10 +7,10 @@ namespace comp2001asp.Models
 {
     public partial class User
     {
-        public int UsersId { get; set; }
-        public string UserForeName { get; set; }
-        public string UserLastName { get; set; }
-        public string UserEmail { get; set; }
-        public string UserPassword { get; set; }
+        public int Users_ID { get; set; }
+        public string User_ForeName { get; set; }
+        public string User_LastName { get; set; }
+        public string User_Email { get; set; }
+        public string User_Password { get; set; }
     }
 }
