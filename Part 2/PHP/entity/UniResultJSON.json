@@ -1,0 +1,236 @@
+[
+  {
+    "": "",
+    "__1": "",
+    "__2": "",
+    "__3": "",
+    "Plymouth": "Unitary Authority",
+    "South West": "Region",
+    "England": "Country"
+  },
+  {
+    "": "All Usual Residents Aged 16 and Over",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 211502,
+    "South West": 4359257,
+    "England": 42989620
+  },
+  {
+    "": "No Qualifications",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 47073,
+    "South West": 902561,
+    "England": 9656810
+  },
+  {
+    "": "No Qualifications",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 22.3,
+    "South West": 20.7,
+    "England": 22.5
+  },
+  {
+    "": "Highest Level of Qualification; Level 1 Qualifications",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 28541,
+    "South West": 592963,
+    "England": 5714441
+  },
+  {
+    "": "Highest Level of Qualification; Level 1 Qualifications",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 13.5,
+    "South West": 13.6,
+    "England": 13.3
+  },
+  {
+    "": "Highest Level of Qualification; Level 2 Qualifications",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 35452,
+    "South West": 713983,
+    "England": 6544614
+  },
+  {
+    "": "Highest Level of Qualification; Level 2 Qualifications",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 16.8,
+    "South West": 16.4,
+    "England": 15.2
+  },
+  {
+    "": "Highest Level of Qualification; Apprenticeship",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 11004,
+    "South West": 186398,
+    "England": 1532934
+  },
+  {
+    "": "Highest Level of Qualification; Apprenticeship",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 5.2,
+    "South West": 4.3,
+    "England": 3.6
+  },
+  {
+    "": "Highest Level of Qualification; Level 3 Qualifications",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 35009,
+    "South West": 575085,
+    "England": 5309631
+  },
+  {
+    "": "Highest Level of Qualification; Level 3 Qualifications",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 16.6,
+    "South West": 13.2,
+    "England": 12.4
+  },
+  {
+    "": "Highest Level of Qualification; Level 4 Qualifications and Above",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 45379,
+    "South West": 1193337,
+    "England": 11769361
+  },
+  {
+    "": "Highest Level of Qualification; Level 4 Qualifications and Above",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 21.5,
+    "South West": 27.4,
+    "England": 27.4
+  },
+  {
+    "": "Highest Level of Qualification; Other Qualifications",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 9044,
+    "South West": 194930,
+    "England": 2461829
+  },
+  {
+    "": "Highest Level of Qualification; Other Qualifications",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 4.3,
+    "South West": 4.5,
+    "England": 5.7
+  },
+  {
+    "": "Schoolchildren and Full-Time Students; Age 16 to 17",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 5233,
+    "South West": 113167,
+    "England": 1163148
+  },
+  {
+    "": "Schoolchildren and Full-Time Students; Age 16 to 17",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 2.5,
+    "South West": 2.6,
+    "England": 2.7
+  },
+  {
+    "": "Schoolchildren and Full-Time Students; Age 18 and Over",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 19376,
+    "South West": 194119,
+    "England": 2348197
+  },
+  {
+    "": "Schoolchildren and Full-Time Students; Age 18 and Over",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 9.2,
+    "South West": 4.5,
+    "England": 5.5
+  },
+  {
+    "": "Full-Time Students; Age 18 to 74; Economically Active; In Employment",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 5692,
+    "South West": 70380,
+    "England": 791902
+  },
+  {
+    "": "Full-Time Students; Age 18 to 74; Economically Active; In Employment",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 2.7,
+    "South West": 1.6,
+    "England": 1.8
+  },
+  {
+    "": "Full-Time Students; Age 18 to 74; Economically Active; Unemployed",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 1559,
+    "South West": 14019,
+    "England": 208518
+  },
+  {
+    "": "Full-Time Students; Age 18 to 74; Economically Active; Unemployed",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 0.7,
+    "South West": 0.3,
+    "England": 0.5
+  },
+  {
+    "": "Full-Time Students; Age 18 to 74; Economically Inactive",
+    "__1": "Count",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 12093,
+    "South West": 109010,
+    "England": 1340731
+  },
+  {
+    "": "Full-Time Students; Age 18 to 74; Economically Inactive",
+    "__1": "Percentage",
+    "__2": "Persons",
+    "__3": "Mar-11",
+    "Plymouth": 5.7,
+    "South West": 2.5,
+    "England": 3.1
+  }
+]
