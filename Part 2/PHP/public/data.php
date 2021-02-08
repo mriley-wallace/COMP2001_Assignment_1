@@ -105,7 +105,7 @@
         <div class="col-sm-8 text-left">
 
             <h1> Readable Data Set</h1>
-            <p>Below will be a human readable data set for depression.</p>
+            <p>Below will be a human readable data set for Qualifications.</p>
 
 
             <?php
